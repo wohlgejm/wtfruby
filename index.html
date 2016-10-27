@@ -2,65 +2,45 @@
 layout: default
 ---
 
-<div>
+<section>
+  <h1>WTF Ruby</h1>
 
-  <section>
-    <h1>Jekyll theme based on hack.css</h1>
+  <p>
+    Stuff I should've known.
+  </p>
+</section>
 
-    <p>
-      Mobile-ready, modern, stylish, simple.
-    </p>
-  </section>
+<section>
+  <h2>Posts</h2>
 
-  <section>
-    <h2>What is Jekyll?</h2>
+  {% for post in site.posts %}
+    {% assign nth = forloop.index0 | modulo:2 %}
+    <div class="media t-hackcss-media">
 
-    <p>
-      <code>Jekyll</code> is a simple, blog-aware, static site generator
-      perfect for personal, project,
-      or organization sites. Think of it like a
-      file-based CMS, without all the complexity.
-      <code>Jekyll</code> takes your content, renders Markdown
-      and Liquid templates, and spits out a
-      complete, static website ready to be served by Apache,
-      Nginx or another web server.
-      <code>Jekyll</code> is the engine behind GitHub Pages,
-      which you can use to host sites right
-      from your GitHub repositories.
-    </p>
-  </section>
+      <div class="t-hackcss-media-shift media-left lg-media">
+        <img class="t-hackcss-media-image"
+             src="{{ post.image_preview }}" alt="{{ post.title }}"
+             title="{{ post.title }}" />
+      </div>
 
-  <section>
-    <h2>What is hack.css?</h2>
-
-    <p>
-      <code>hack.css</code> is a dead simple css framework. Chech out
-      <a href="http://hackcss.com/">hackcss.com</a> to know more.
-    </p>
-  </section>
-
-  <section>
-    <h2>Getting started</h2>
-
-    <p>
-      <ol>
-        <li>Make sure you have <code>Jekyll</code> up and running</li>
-        <li>Clone
-          <a href="https://github.com/wemake-services/jekyll-theme-hackcss">this repository</a>
-        </li>
-        <li>Customize it</li>
-        <li>Push to <a href="https://pages.github.com/">gh-pages</a></li>
-      </ol>
-
-    </p>
-  </section>
-
-  <section>
-    <h2>Subscribe</h2>
-
-    <p>
-      subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
-    </p>
-  </section>
-
-</div>
+      <div class="media-body">
+        <div class="media-heading">
+          <span>{{ post.date | date_to_string }} &raquo;
+            {% if post.external_url %}
+              <a href="{{ post.external_url }}" target="_blank" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% else %}
+              <a href="{{ post.url | prepend: site.baseurl }}" title="{{ project.name }}">
+                {{ post.title }}
+              </a>
+            {% endif %}
+          </span>
+        </div>
+        <div class="media-content">
+          {{ post.short_description }}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+</section>
