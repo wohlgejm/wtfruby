@@ -8,7 +8,7 @@ image_preview: https://media.giphy.com/media/9YuLKEMFcxs88/giphy.gif
 ---
 
 I recently made the mistake of writing a rake task and, when I had duplicate logic across two of the tasks,
-decided to pull it out into a helper method, inside the namespace block. I also gave it a general name,
+decided to pull it out into a helper method inside the namespace block. I also gave it a general name,
 `update_foo`. This first task ran and worked fine.
 
 ```ruby
@@ -29,3 +29,11 @@ namespace :foo do
   end
 end
 ```
+
+Then, I had another set of tasks that also shared similar logic and had an `update_foo` helper method.
+I ran the second task and was baffled when it didn't work.
+
+After some debugging, it became clear that the helper method of the same name, *in the other rake task* was
+being called. I should have realized this since this is all happening inside a block. `update_foo` was being
+defined globally and was overwritten by definition inside the other rake task. Instead of doing this, I
+should've extracted this common logic into its own class.
