@@ -1,7 +1,7 @@
 ---
 layout: post
 title: to_query does something, maybe, weird?
-date: 2016-10-27 00:15:23
+date: 2016-10-28 20:15:23
 categories: ruby rails
 short_description: Beware when testing ActiveSupport's `to_query`
 image_preview: https://media2.giphy.com/media/j7F8n3f5IYays/200.gif#66

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Testing `handle_asynchrously` like a boss
-date: 2016-10-27 00:15:23
+date: 2016-10-30 15:20:30
 categories: ruby rails
 short_description: How to test DelayedJob's `handle_asynchrously`. Like a boss.
 image_preview: https://media2.giphy.com/media/wjNzcOiXJ1xPW/200.gif#73
