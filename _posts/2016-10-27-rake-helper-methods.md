@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Don't use helper methods in rake tasks
 date: 2016-10-27 19:15:23
 categories: ruby rails

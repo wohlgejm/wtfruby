@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: to_query does something, maybe, weird?
 date: 2016-10-28 20:15:23
 categories: ruby rails

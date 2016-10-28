@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Testing `handle_asynchrously` like a boss
 date: 2016-10-30 15:20:30
 categories: ruby rails
