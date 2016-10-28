@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   *Mostly* astonishments - and frustrastions with Ruby, Rails, and other stuff.
 repository: https://github.com/wohlgejm/wtfruby
 baseurl:   # the subpath of your site, e.g. /blog
-url: http://wtfruby.github.io  # the base hostname & protocol for your site
+url: http://wtfruby.com  # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
