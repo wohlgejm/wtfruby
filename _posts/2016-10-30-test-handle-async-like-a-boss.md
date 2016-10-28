@@ -32,7 +32,8 @@ RSpec.describe 'Foo' do
 
     it 'enqeues the function' do
       expect(Delayed::PerformableMethod).to receive(:new) do |obj, method, _args|
-        expect(method).to eq(
+        expect(method).to eq(:takes_long_without_delay)
+        expect(obj).to be(obj)
       end.and_return(job)
       subject.takes_long
     end
