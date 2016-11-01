@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Don't use API Gateway mapping templates
 date: 2016-10-31 20:20:23
 categories: aws api-gateway
