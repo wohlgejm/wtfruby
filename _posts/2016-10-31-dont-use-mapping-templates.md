@@ -2,7 +2,7 @@
 layout: post
 title: Don't use API Gateway mapping templates
 date: 2016-10-31 20:20:23
-categories: ruby rails
+categories: aws api-gateway
 short_description: You shouldn't put any business logic in API Gateway for your own good.
 image_preview: https://media.giphy.com/media/HubldV28qMMBG/giphy.gif
 ---
