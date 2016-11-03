@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Python gspread token refresh
-date: 2016-10-31 20:20:23
+date: 2016-11-01 20:20:23
 categories: python
 short_description: Handling token refreshing with `ServiceAccountCredentials`
 image_preview: https://media.giphy.com/media/3oEjHE8Ikf81tCkldC/giphy.gif
