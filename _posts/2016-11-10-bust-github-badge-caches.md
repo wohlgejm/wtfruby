@@ -3,7 +3,7 @@ layout: post
 comments: true
 title: Bust github badges cache
 date: 2016-11-10 21:20:30
-categories: ruby rails
+categories: github
 short_description: How to bust a cached badge on github
 image_preview: https://img.buzzfeed.com/buzzfeed-static/static/2014-11/26/20/enhanced/webdr10/anigif_enhanced-25333-1417052342-10.gif
 ---
