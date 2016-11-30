@@ -5,7 +5,7 @@ title: Watch out for `setInterval`'s context
 date: 2016-11-29 20:20:30
 categories: javascript
 short_description: Be wary of `setInterval`'s context.
-image_preview: http://i39.tinypic.com/1znyi6p.gif
+image_preview: /images/frank2.gif
 ---
 
 I had a WTF moment pairing today on a bug in some javascript. There was an interval function

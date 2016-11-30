@@ -5,7 +5,7 @@ title: Fake `open` with Python doubles
 date: 2016-11-20 15:20:30
 categories: python testing
 short_description: How to test `open` with the doubles library
-image_preview: https://media4.giphy.com/media/4BtwJzwVJBCP6/200.gif#38
+image_preview: /images/charlie1.gif
 ---
 
 I've been strugging a bit testing an `open` call with the `doubles` library. As is the case many times, most

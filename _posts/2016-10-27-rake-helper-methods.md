@@ -5,7 +5,7 @@ title: Don't use helper methods in rake tasks
 date: 2016-10-27 19:15:23
 categories: ruby rails
 short_description: Defining a helper method in a rake task can have unintended side effects.
-image_preview: https://media.giphy.com/media/9YuLKEMFcxs88/giphy.gif
+image_preview: /images/charlie5.gif
 ---
 
 I recently made the mistake of writing a rake task and, when I had duplicate logic across two of the tasks,

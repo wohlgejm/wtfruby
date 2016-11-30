@@ -5,7 +5,7 @@ title: Uber's Python test doubles are awesome
 date: 2016-11-14 20:20:30
 categories: python testing
 short_description: Use doubles instead of mock
-image_preview: https://media4.giphy.com/media/N1RuMazLHPqDK/200.gif#86
+image_preview: /images/charlie2.gif
 ---
 
 One reason Ruby makes me happy is `rspec`. It reads like documentation and it's really easy to mock and stub.

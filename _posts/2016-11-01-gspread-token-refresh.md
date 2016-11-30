@@ -5,7 +5,7 @@ title: Python gspread token refresh
 date: 2016-11-01 20:20:23
 categories: python
 short_description: Handling token refreshing with `ServiceAccountCredentials`
-image_preview: https://media.giphy.com/media/3oEjHE8Ikf81tCkldC/giphy.gif
+image_preview: /images/charlie4.gif
 ---
 
 I've been using the Python [gspread](https://github.com/burnash/gspread) library to update a spreadsheet with
