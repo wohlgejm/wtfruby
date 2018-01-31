@@ -13,7 +13,7 @@ layout: default
 <section>
   <h2>Posts</h2>
 
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     {% assign nth = forloop.index0 | modulo:2 %}
     <div class="media t-hackcss-media">
 
@@ -43,4 +43,18 @@ layout: default
       </div>
     </div>
   {% endfor %}
+
+  <div class="pagination-links">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+    {% else %}
+      <span class="previous">Previous</span>
+    {% endif %}
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+    {% else %}
+      <span class="next ">Next</span>
+    {% endif %}
+  </div>
 </section>
