@@ -28,9 +28,9 @@ Plugin 'prabirshrestha/asyncomplete.vim'
 Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 ```
 
-Next, install the [ocaml-language-server].
+Next, install the [ocaml-language-server](https://github.com/freebroccolo/ocaml-language-server).
 ```bash
-https://github.com/freebroccolo/ocaml-language-server
+npm install -g ocaml-language-server
 ```
 
 Lastly, add the following to your `.vimrc`.
