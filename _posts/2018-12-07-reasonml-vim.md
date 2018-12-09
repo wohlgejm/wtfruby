@@ -28,8 +28,9 @@ Plugin 'prabirshrestha/asyncomplete.vim'
 Plugin 'prabirshrestha/asyncomplete-lsp.vim'
 ```
 
-Next, install the [ocaml-language-server](https://github.com/freebroccolo/ocaml-language-server).
+Next, install the [ocaml-language-server](https://github.com/freebroccolo/ocaml-language-server). This requires [Merlin](https://github.com/ocaml/merlin), which you can install using another set of tools, [reason-cli](https://github.com/reasonml/reason-cli).
 ```bash
+npm install -g reason-cli@latest-linux
 npm install -g ocaml-language-server
 ```
 
