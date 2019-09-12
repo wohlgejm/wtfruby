@@ -5,7 +5,6 @@ title: Private keys in dokku
 date: 2016-12-12 20:20:30
 categories: dokku
 short_description: How to set a private key environment variable in dokku
-image_preview: /images/macboat.gif
 ---
 
 I've been playing around with [dokku](https://github.com/dokku/dokku) which is a pretty awesome heroku replacement

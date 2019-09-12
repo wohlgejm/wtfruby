@@ -1,11 +1,10 @@
 ---
 layout: post
 comments: true
-title: Testing `handle_asynchrously` like a boss
+title: Testing DelayedJob's `handle_asynchrously`
 date: 2016-10-30 15:20:30
 categories: ruby rails
-short_description: How to test DelayedJob's `handle_asynchrously`. Like a boss.
-image_preview: /images/dennismac.gif
+short_description: How to test DelayedJob's `handle_asynchrously`.
 ---
 
 If you're using `Delayed::Job` you can conveniently define background tasks like:

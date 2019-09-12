@@ -5,7 +5,6 @@ title: Testing sqs in python
 date: 2017-03-10 20:20:30
 categories: python aws sqs
 short_description: Mocking and testing sqs in python
-image_preview: /images/nightmanlaughs.gif
 ---
 
 AWS's [SQS](https://aws.amazon.com/sqs/) (simple queue service) is a nice way of not having to manage your own

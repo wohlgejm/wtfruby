@@ -5,7 +5,6 @@ title: Using `UserDict` in Py2 and Py3
 date: 2016-11-25 20:20:30
 categories: python
 short_description: How to use `UserDict` in Python 2 and 3
-image_preview: /images/frank1.gif
 ---
 
 If you want to create a dict like object using `UserDict` in Python 2 and 3, there's

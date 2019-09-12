@@ -5,7 +5,6 @@ title: Adding a column is unsafe
 date: 2018-01-31 8:20:30
 categories: postgres
 short_description: Beware of adding a column in postgres
-image_preview: /images/macdad.gif
 ---
 
 I've been burned by migrations in production many times now.

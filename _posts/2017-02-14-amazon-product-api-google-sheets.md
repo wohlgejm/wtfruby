@@ -5,7 +5,6 @@ title: Amazon api requests from google sheets
 date: 2017-02-14 20:20:30
 categories: javascript
 short_description: How to make amazon product api requests from google sheets
-image_preview: /images/macandfrankpool.gif
 ---
 
 Here is some javascript code to sign requests for the Amazon Product Advertising API in Google Sheets. This uses

@@ -5,7 +5,6 @@ title: eslint config for react-rails
 date: 2017-01-20 20:20:30
 categories: rails react
 short_description: Configuring eslint with react-rails gem
-image_preview: /images/dancingguy.gif
 ---
 
 [react-rails](https://github.com/reactjs/react-rails) is a gentle way to introduce react into your rails app.

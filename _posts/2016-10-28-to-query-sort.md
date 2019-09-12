@@ -5,7 +5,6 @@ title: to_query does something, maybe, weird?
 date: 2016-10-28 20:15:23
 categories: ruby rails
 short_description: Beware when testing ActiveSupport's `to_query`
-image_preview: /images/mac.gif
 ---
 
 `ActiveSupport` provides a helpful `to_query` method that can be called on a `Hash` to build

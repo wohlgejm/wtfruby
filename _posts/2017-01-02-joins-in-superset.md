@@ -5,7 +5,6 @@ title: Joins in Airbnb's superset
 date: 2017-01-02 20:20:30
 categories: python
 short_description: How to join in Airbnb's superset
-image_preview: /images/charlie6.gif
 ---
 
 Airbnb has an awesome open source data viz tool called [superset](http://airbnb.io/superset/index.html).

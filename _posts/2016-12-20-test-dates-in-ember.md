@@ -5,7 +5,6 @@ title: Testing `Date` in ember
 date: 2016-12-20 20:20:30
 categories: ember javascript
 short_description: How to test `new Date()` in ember
-image_preview: /images/frank3.gif
 ---
 
 I recently added a bunch of timestamps to an ember application and wanted to assert that they were being saved

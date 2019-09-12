@@ -5,7 +5,6 @@ title: Using ENVs for Google Drive API auth
 date: 2016-12-04 15:20:30
 categories: ruby
 short_description: How to use ENV vars for Google API authorization.
-image_preview: /images/macthumbsup.gif
 ---
 
 The [docs](https://developers.google.com/sheets/quickstart/ruby) for the Google Ruby API could be much clearer.

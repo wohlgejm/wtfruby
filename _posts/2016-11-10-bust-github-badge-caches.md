@@ -5,7 +5,6 @@ title: Bust github badges cache
 date: 2016-11-10 21:20:30
 categories: github
 short_description: How to bust a cached badge on github
-image_preview: /images/charlie3.gif
 ---
 I wanted to see the updated coverage badge for my Jira cli, [Accountable](https://github.com/wohlgejm/accountable).
 

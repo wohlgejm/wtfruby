@@ -5,7 +5,6 @@ title: ReasonML and vim
 date: 2018-12-07 8:20:30
 categories: postgres
 short_description: Vim config for ReasonML
-image_preview: /images/bikes.gif
 ---
 
 Here's how to get started with vim and [ReasonML](https://reasonml.github.io/).

@@ -5,7 +5,6 @@ title: Flight costs in Google sheets
 date: 2017-01-13 20:20:30
 categories: javascript
 short_description: How to write a flight cost function in Google sheets
-image_preview: /images/charliedance.gif
 ---
 
 The ability write your own javascript functions in Google sheets is incredibly powerful. I'm working in a sheet

@@ -5,7 +5,6 @@ title: JWTs in Google Apps Script
 date: 2018-11-21 8:20:30
 categories: gas
 short_description: How to create a JWT in a Google Apps Script
-image_preview: /images/cricket.gif
 ---
 
 Google Apps Script is a really amazing way to extend Google's suite of productivity tools.

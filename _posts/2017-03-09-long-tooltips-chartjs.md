@@ -5,7 +5,6 @@ title: Hacking multi-line tooltips in Chart.js
 date: 2017-03-09 20:20:30
 categories: javascript chartjs
 short_description: Creating multi-line tooltips in Chart.js
-image_preview: /images/deecrazy.gif
 ---
 
 [Chart.js](http://www.chartjs.org/) is an awesome javascript library with an API that can handle almost any

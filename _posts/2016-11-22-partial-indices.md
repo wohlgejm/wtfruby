@@ -5,7 +5,6 @@ title: Partial indices can be a bad idea
 date: 2016-11-22 20:20:30
 categories: postgres rails
 short_description: Why you shouldn't use partial indices
-image_preview: /images/macprison.gif
 ---
 
 You might be tempted to use a partial index in Postgresql for a common scope you have.
