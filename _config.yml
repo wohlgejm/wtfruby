@@ -63,5 +63,6 @@ social:
 gems:
   - jekyll-seo-tag
   - jekyll-paginate
+  - jemoji
 
 paginate: 10
